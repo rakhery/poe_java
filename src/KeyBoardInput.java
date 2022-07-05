@@ -6,6 +6,8 @@ public class KeyBoardInput {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         // 1.Demander à l'utilisateur:nom,prenom, age, poids
+        //Commentaire Christian: Condition Attention! type inference  Christian
+        // var il faut initialiser avt d'utiliser en JAVA
         System.out.print("Votre nom:");
         var nom=input.nextLine();
         System.out.print("Votre prenom:");
@@ -14,7 +16,9 @@ public class KeyBoardInput {
         var age=input.nextByte();
         System.out.print("Votre Poids:");
         var poids=input.nextFloat();
+        //JDK 17
         var affichage= """
+                Formulaire envoyée:
                 Nom: %s
                 Prenom: %s
                 Age: %d

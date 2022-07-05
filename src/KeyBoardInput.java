@@ -1,7 +1,11 @@
 import java.util.Scanner;
 
 public class KeyBoardInput {
-
+    /*@title: Saisir des données et afficher
+   *@description: Utilisation de les methodes de la classe scanner
+   @date
+   * @author Christian Lisangola
+  */
     // 1.Demander à l'utilisateur:nom,prenom, age, poids
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);

@@ -39,7 +39,9 @@ public class HelloWorld {
                 nom: %s
                 prenom: %s
                 email: %s
-                """.formatted("RAK","Christian","monEmail@gmail.com");
+                age: %d
+                testfloat: %.1f
+                """.formatted("RAK","Christian","monEmail@gmail.com",77,8F);
         System.out.println(textBlock2);
 
 
@@ -59,7 +61,10 @@ public class HelloWorld {
 
 //        Byte : une variante d'entier court
         byte age=89;
+        System.out.println("Je suis "+prenom+" "+nom+",j'ai "+age+" ans.Mon Tjm est de "+tjm+
+                " €");
 
 
     }
 }
+

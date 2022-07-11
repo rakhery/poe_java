@@ -1,7 +1,7 @@
 import java.util.Arrays;
-import java.util.Locale;
+
 import java.util.Scanner;
-import java.util.stream.Collectors;
+
 
 public class TP18AvecFonction {
 
@@ -9,7 +9,7 @@ public class TP18AvecFonction {
         Scanner scanner = new Scanner(System.in);
         System.out.println(message);
         String s1 = scanner.nextLine();
-        //Attention au caractères pour le registre expression
+        //Attention aux caractères pour le registre d' expression
         String st1=s1.replaceAll("[^A-Za-z]","").toLowerCase();
         return st1;
     }

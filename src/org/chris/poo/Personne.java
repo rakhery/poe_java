@@ -20,6 +20,10 @@ public class Personne {
         return nom;
     }
 
+    /**
+     * Getter et Setterdependent des exigences des besoins métiers
+     * @commentaire Formateur
+     */
     public void setNom(String nom) {
         this.nom = nom;
     }
@@ -44,7 +48,7 @@ public class Personne {
         return isMarried;
     }
 
-    public void setEstMarried(boolean estMarried) {
+    public void setIsMarried(boolean estMarried) {
         this.isMarried = estMarried;
     }
 

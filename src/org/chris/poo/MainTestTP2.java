@@ -9,7 +9,7 @@ public class MainTestTP2 {
         String nom=scanner.nextLine();
         System.out.println("Prénom:");
         String prenom=scanner.nextLine();
-        System.out.println("Marié(e) True ou False:");
+        System.out.println("Marié(e) ? True ou False:");
         boolean isMarried=scanner.nextBoolean();
         System.out.println("Nombre enfants:");
         int nbrEnfant=scanner.nextInt();

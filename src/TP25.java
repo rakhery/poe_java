@@ -89,7 +89,7 @@ public class TP25 {
         if (isValidPseudo(pseudo))
             message("Pseudo OK!");
 
-        String nom = saisir("Nom:");
+        String nom = saisir("Saisir le Nom:");
         if (isValidNom(nom))
             message("Nom OK!");
 

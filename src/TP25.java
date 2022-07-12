@@ -85,7 +85,7 @@ public class TP25 {
 
     public static void main(String[] args) {
 
-        String pseudo = saisir("Pseudo:");
+        String pseudo = saisir("Saisir le Pseudo:");
         if (isValidPseudo(pseudo))
             message("Pseudo OK!");
 
@@ -93,20 +93,19 @@ public class TP25 {
         if (isValidNom(nom))
             message("Nom OK!");
 
-
-        String prenom = saisir("Prenom:");
+        String prenom = saisir("Saisir le Prénom:");
         if (isValidPrenom(prenom))
             message("Prénom Ok!");
 
-        String pass = saisir("pass:");
+        String pass = saisir("Saisir le mot de passe:");
         if (isValidPass(pass))
             message("Mod de passe OK!");
 
-        String email = saisir("email:");
+        String email = saisir("Saisir l' Email:");
         if (isValidEmail(email))
-            System.out.println("Email Valid");
+            System.out.println("Email OK!");
 
-
+        //Recolter les données
         String donnees = """
                 Pseudo:%s
                 Nom: %s

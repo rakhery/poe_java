@@ -12,11 +12,12 @@ public class Patient {
     private double poids;
     private double taille;
 
+
     private double imc;
     public Patient(double poids, double taille) {
         this.poids = poids;
         this.taille = taille;
-        this.imc=calculIMC();
+        this.imc=calculIMC();//attention quand la taille ou poid change IMC ne change pas
 
     }
     //calculer leur « Indice de Masse Corporelle» (IMC)
@@ -24,6 +25,7 @@ public class Patient {
         imc=poids/Math.pow(taille,2);
         return imc;
     }
+
     //test Amelioration switch java sans break
     public String analyserIMC(){
 

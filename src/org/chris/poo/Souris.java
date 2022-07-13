@@ -36,11 +36,9 @@ public class Souris {
      * , cette méthode doit être publique ; elle sera testée
      */
    public void veillir(){
-       if (isCloned){
-           if(age>=esperanceVie/2) {
-               couleur="verte";
+       if ((isCloned)&&(age>=esperanceVie/2 )){ //refactoring formateur if imbriqué
+           couleur="verte";
            }
-       }
        else
            age+=1;
    }

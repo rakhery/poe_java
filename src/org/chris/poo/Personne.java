@@ -21,7 +21,7 @@ public class Personne {
     }
 
     /**
-     * Getter et Setterdependent des exigences des besoins métiers
+     * Getter et Setter dependent des exigences des besoins métiers
      * @commentaire Formateur
      */
     public void setNom(String nom) {
@@ -58,7 +58,6 @@ public class Personne {
             married="Marié(e)";
         else
             married="Célibataire";
-
         String affichage= """
                 Nom:%s Prénom:%s
                 %s 

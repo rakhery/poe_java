@@ -2,8 +2,6 @@ package org.chris.gestion;
 
 public class EtudiantEchange extends Etudiant {
     private String origineUniv;
-
-
     public String getOrigineUniv() {
         return origineUniv;
     }

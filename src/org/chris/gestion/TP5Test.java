@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class TP5Test {
     public static void main(String[] args){
-        System.out.println("Gestion du personnel");
+        // Ajout des utilisateurs
         Gestion gestion=new Gestion("CLB Institut of technology");
         gestion.ajouter(new Secretaire("Secrétaire","Christiane Lisangolanne",2005,"Chimie",5000));
         gestion.ajouter(new Etudiant("Etudiant regulier","Chris Lisangola",2013,"Physique",15));
@@ -14,9 +14,11 @@ public class TP5Test {
         //affichage du nombre de personnes qui fréquentent CLBIT
         //dont le nombre d'étudiants.
         System.out.println("Nombre Etudiant:"+gestion.getNombreEtudiant());
-
-        /*Affichage des informations stockées sur chaque personne
-        vous définirez une méthode estEtudiant retournant true pour les étudiants et false pour tous les autre*/
+        /*
+        Affichage des informations stockées sur chaque personne
+        vous définirez une méthode estEtudiant retournant true pour les étudiants et false pour
+         tous les autre
+         */
         gestion.afficher();
 
 

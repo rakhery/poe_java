@@ -25,7 +25,7 @@ class Etudiant extends Personne {
 
         String out= """
                 %sSection: %s
-                Moyenne: %f 
+                Moyenne: %.3f 
                 """.formatted(super.toString(),section,moyenne);
         return out;
     }

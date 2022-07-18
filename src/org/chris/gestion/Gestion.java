@@ -4,12 +4,12 @@ import java.util.ArrayList;
 
 /**
  * @Formateur :attention pendant la concept° pour respecter
- *  le prncpe SOLID
+ *  le principe SOLID
  * Single Responsability 1 seule responsabilité
  * O open/close
  * L Liskov substitution
  * Interface segregation
- * Dependence Injection
+ * Dependence Inversion
  *
  *
  * ex:Dev RH

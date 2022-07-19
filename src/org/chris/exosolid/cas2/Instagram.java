@@ -13,7 +13,7 @@ class Instagram extends SocialMedia {
     public void sendPhotosAndVideos() {
 
     }
-
+    //Ne respecte pas le principe de Liskov
     public void groupVideoCall(String... users) {
 //not applicable
     }

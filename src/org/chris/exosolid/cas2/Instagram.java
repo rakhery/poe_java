@@ -1,6 +1,6 @@
 package org.chris.exosolid.cas2;
 
-class Instagram implements ISocialMedia,IGestionPost,IGestionChat {
+class Instagram implements ISocialMedia,IGestionPost {
 
 
     @Override

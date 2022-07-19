@@ -7,9 +7,9 @@ package org.chris.exosolid.cas2;
 // ces sous classes selon leurs parent
 public class Case2 {
     public static void main(String[] args) {
-        SocialMedia whatsapp=new Whatsapp();
-        SocialMedia instagram=new Instagram();
-        SocialMedia facebook=new Facebook();
+        ISocialMedia whatsapp=new Whatsapp();
+        ISocialMedia instagram=new Instagram();
+        ISocialMedia facebook=new Facebook();
     }
 }
 

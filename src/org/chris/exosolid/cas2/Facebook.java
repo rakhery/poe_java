@@ -1,20 +1,25 @@
 package org.chris.exosolid.cas2;
 
-class Facebook extends SocialMedia {
+class Facebook implements ISocialMedia,IGestionPost,IGestionChatVideo {
 
-    public void chatWithFriend() {
+
+    @Override
+    public void groupVideoCall(String... users) {
 
     }
 
+    @Override
     public void publishPost(Object post) {
 
     }
 
-    public void sendPhotosAndVideos() {
+    @Override
+    public void chatWithFriend() {
 
     }
 
-    public void groupVideoCall(String... users) {
+    @Override
+    public void sendPhotosAndVideos() {
 
     }
 }

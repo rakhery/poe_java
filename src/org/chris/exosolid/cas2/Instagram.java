@@ -1,20 +1,21 @@
 package org.chris.exosolid.cas2;
 
-class Instagram extends SocialMedia {
+class Instagram implements ISocialMedia,IGestionPost,IGestionChat {
 
-    public void chatWithFriend() {
 
-    }
-
+    @Override
     public void publishPost(Object post) {
 
     }
 
+    @Override
+    public void chatWithFriend() {
+
+    }
+
+    @Override
     public void sendPhotosAndVideos() {
 
     }
-    //Ne respecte pas le principe de Liskov
-    public void groupVideoCall(String... users) {
-//not applicable
-    }
 }
+

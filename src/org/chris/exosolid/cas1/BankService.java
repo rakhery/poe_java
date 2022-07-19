@@ -17,8 +17,12 @@ class BankService {
 
     }
 
+
     //    Envoyer une notification de OTP pour chaque type d'opération bancaire
 //    Par email ou mobile ou whatsapp
+
+    //La classe Bank service prend plusieurs responsabilités
+    //Il faut créer des services différents
     public void sendOTP(String medium) {
         if (medium.equals("email")) {
             // write email related logic
